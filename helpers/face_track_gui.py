@@ -60,7 +60,8 @@ class FaceTrack(QDialog):
         img = self.img
         cv2.imwrite('kumbaya.jpg', img)
         f = cv2.FONT_HERSHEY_SIMPLEX
-        import face_track
+        #import face_track
+        from . import face_track
         msg = face_track.regFace(['kumbaya.jpg'], userid)
         if msg:
             img = cv2.putText(img, userid, (0, 70 ), f, 2, (0, 255 ,0))

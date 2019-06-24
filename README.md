@@ -22,6 +22,15 @@ Make A Clone of the Project
 ## Setup Project on Local PC
 1. Create a virtualenv and activate it.
 2. Install all requirements with:
+
+
     $ pip install -r requirements.txt
+    
+    
 3. Run the gui application
+
+
     $ python gui_run.py
+    
+    
+    

@@ -11,7 +11,7 @@ import cv2
 import os
 from datetime import  datetime as dtime
 from threading import Thread
-import face_track
+from . import face_track
 '''constants declaration '''
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 # Setting database file to use
