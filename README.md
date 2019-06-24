@@ -6,9 +6,9 @@ DaboLinux Technologies © 2019
 
 ## Features
 
-- User Authentication
-- Application
-- Generating Admission Letter
+- User Face Registration
+- Face Recognition
+- Saving Recoginize Users by date and time in a Records
 
 ## How to Contribute
 
@@ -20,5 +20,8 @@ Make A Clone of the Project
 
 
 ## Setup Project on Local PC
-
-    $ python manage.py runserver
+1. Create a virtualenv and activate it.
+2. Install all requirements with:
+    $ pip install -r requirements.txt
+3. Run the gui application
+    $ python gui_run.py
