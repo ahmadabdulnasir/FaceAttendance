@@ -29,6 +29,8 @@ def regFace(imgs, userid, base_url='http://134.209.226.48:8088'):
     else:
         print("[ERROR]: Error not finished")
         return None
+        
+#OSError: [Errno 101] Network is unreachable
 
 def preditFace(img, base_url='http://134.209.226.48:8088'):
 

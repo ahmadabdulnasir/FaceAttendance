@@ -61,7 +61,7 @@ class PredictionThread(Thread):
 
 def locaPredict(img):
     print('[INFO]: Starting Prediction Thread')
-    import face_track
+    #import face_track
     # while True:
     result = face_track.preditFace(img)
     #{'userid':userid, 'x_min': x_min, 'x_max': x_max, 'y_min': y_min, 'y_max': y_max , 'confidence': msg}
